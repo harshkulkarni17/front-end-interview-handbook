@@ -17,6 +17,8 @@ Answers to [Front-end Job Interview Questions - HTML Questions](https://github.c
 - [What is progressive rendering?](#what-is-progressive-rendering)
 - [Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.](#why-you-would-use-a-srcset-attribute-in-an-image-tag-explain-the-process-the-browser-uses-when-evaluating-the-content-of-this-attribute)
 - [Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before)
+- [What is HTML5 Graphics?](#what-is-html5-graphics)
+- [What are the various tags provided for better structuring in HTML5?](#what-are-the-various-tags-provided-for-better-structuring-in-html5)
 
 ### What does a DOCTYPE do?
 
@@ -209,6 +211,46 @@ Yes, Pug (formerly Jade), ERB, Slim, Handlebars, Jinja, Liquid, and EJS just to 
 
 [[↑] Back to top](#table-of-contents)
 
+
+### What is HTML5 Graphics?
+In HTML5, there are two types of graphics.
+
+#### Scalable Vector Graphics (SVG) -
+- The HTML5 `<svg>` element is a container for SVG graphics. It provides several methods for drawing boxes, paths, text, circles, and graphic images.
+- SVG is beneficial as nowadays, people are using high-resolution devices (iPads and Monitors), so it becomes impressive as designs, logos, and charts scale according to the requirement, maintaining the picture quality.
+- SVG is XML based, which means that every element is available within the SVG DOM. It treats every shape as an object. If the user changes the attributes of any SVG object, the browser will automatically re-render the shape.
+
+#### Canvas - 
+- It is a rectangular area on the HTML page for drawing graphics on the fly, using JavaScript.
+- The default size of the canvas is 300 PX × 150 PX (width × height).
+- The HTML tag <canvas> is a container for the Canvas graphics. Canvas gets executed on the pixel by pixel basis.
+- In Canvas, browser forgets the graphic, after drawing it. If the user tries to modify it, the entire scene needs to be redrawn, including all the objects present in the graphic.
+  
+###### References
+- https://www.techbeamers.com/latest-html-interview-questions/
+
+[[↑] Back to top](#table-of-contents)
+  
+### What are the various tags provided for better structuring in HTML5?
+The various tags provided for better structuring in HTML 5 are:
+- `<article>` – This tag defines an article.
+- `<aside>` – It defines content other than the page content.
+- `<bdi>` – This tag isolates a part of the text for formatting in a different direction, from another text present there.
+- `<command>` – It defines a command button to be invoked by the user.
+- `<details>` – It outlines the additional details that a user can hide or view as per choice.
+- `<dialog>` – It defines a dialog box.
+- `<figure>` – This tag specifies content like illustrations, diagrams, photos, code listings, etc.
+- `<figcaption>` – It provides a caption for a `<figure>` element.
+- `<footer>` – This tag defines a footer for a document or a section.
+- `<header>` – This tag describes a header for a document or a section.
+- `<hgroup>` – When there are multiple levels in a heading, it groups a set of `<h1>` to `<h6>` elements.
+ 
+###### References
+- https://www.techbeamers.com/latest-html-interview-questions/
+
+[[↑] Back to top](#table-of-contents)
+
+  
 ### Other Answers
 
 - https://neal.codes/blog/front-end-interview-questions-html/
